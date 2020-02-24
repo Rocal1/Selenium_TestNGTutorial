@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
 
-    <test name="Personal loan">
-  <packages>
-      <package name= "test"/>
-          
-  </packages>
-  </test>
+	<test name="Personal loan">
+		<packages>
+			<package name="test" />
+
+		</packages>
+	</test>
 </suite> 

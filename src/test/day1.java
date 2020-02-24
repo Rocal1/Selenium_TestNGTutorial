@@ -1,11 +1,15 @@
 package test;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-public class day1 {
+import GlobalVariables.testBase;
+
+public class day1 extends testBase {
 
 
 		// TODO Auto-generated method stub
@@ -16,8 +20,9 @@ public class day1 {
 		
 	}
 	@Test
-	public void Demo()
+	public void Demo() throws IOException, InterruptedException
 	{
+		Login();
 		System.out.println("hello");//automation
 		Assert.assertTrue(false);
 	}
